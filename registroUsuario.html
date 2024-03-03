@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regintro</title>
+    <link rel="stylesheet" type="text/css" href="appcss/index.css">
+    <link rel="stylesheet" type="text/css" href="appcss/regreso.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="regreso">
+            <a href="index.html"><input type="button" value="Regresar"></a>
+        </div>
+    </header>
+    <section class="registro">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <div class="contenedor">
+                <div class="formulario">
+                    <form action="">
+                        <h2 id="titleDatos">Datos personales</h2>
+                        <div class="input">
+                            <label for="nombre">Ingrese nombre completo:</label>
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="input">
+                            <label for="user">Ingrese un usuario:</label>
+                            <input type="text" placeholder="Usuario" required>
+                        </div>
+                        <div class="input">
+                            <label for="pasword">Ingrese una contraseña:</label>
+                            <input type="password" placeholder="Contraseña" required>
+                        </div>
+                        <div class="input">
+                            <label for="fechaNacimiento">Ingrese la fecha en la que nacio:</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">Ingrese su e-mail:</label>
+                            <input type="email" placeholder="Ejm: jaime@gmail.com" required>
+                        </div>
+                        <div class="input">
+                            <label for="telefono">Ingrese su numero de telefono:</label>
+                            <input type="number" placeholder="Ejm: 0998888888" required>
+                        </div>
+                        <div class="input">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <footer>
+        <div class="redesSociales">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </footer> -->
+
+    <!-- <script>
+        let footer = document.querySelector(".redesSociales")
+        let ratio = window.devicePixelRatio || 1;
+        let hScreen = screen.height * ratio;
+
+        window.addEventListener("resize", (e) => {
+            if (screen.height * ratio < hScreen) {
+                footer.style.visibility = "hidden"
+            }
+            else if (hScreen - 20 <= screen.height * ratio) {
+                footer.style.visibility = "visible"
+            }
+        })
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+#combobox {
+    height: 40px;
+    margin-top: 0.4em;
+}
+
+#editores #editar {
+    background: rgba(9, 230, 24, 0.744);
+    border-radius: 10px;
+    width: 1.7em;
+    height: 1.7em;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#editores #eliminar {
+    background: rgba(237, 17, 17, 0.744);
+    border-radius: 10px;
+    width: 1.7em;
+    height: 1.7em;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

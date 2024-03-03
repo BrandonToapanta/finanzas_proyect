@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de cuentas</title>
+    <link rel="stylesheet" type="text/css" href="appcss/index.css">
+    <link rel="stylesheet" type="text/css" href="appcss/regreso.css">
+    <link rel="stylesheet" type="text/css" href="appcss/cajabox_botones_edit.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="regreso">
+            <a href="inicio.html"><input type="button" value="Regresar"></a>
+        </div>
+    </header>
+    <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <div class="contenedor">
+                <div class="formulario">
+                    <form action="">
+                        <div class="input">
+                            <label>Egresos:</label>
+                            <div class="input" style="display:flex">
+                                <select style="flex: 10" id="combobox">
+                                    <option>Comida</option>
+                                    <option>Educación</option>
+                                    <option>Servicios basicos</option>
+                                    <option>Ropa</option>
+                                </select>
+                                <ul style="flex: 2; padding: 0" id="editores">
+                                    <li><a href="#"><i class="fa fa-edit" id="editar"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-remove" id="eliminar"></i></a></li>
+                                </ul>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="input">
+                            <label>Ingresos:</label>
+                            <div class="input" style="display: flex">
+                                <select style="flex: 10" id="combobox">
+                                    <option>Ahorros</option>
+                                    <option>Sueldo</option>
+                                </select>
+                                <ul style="flex: 2" id="editores">
+                                    <li><a href="#"><i class="fa fa-edit" id="editar"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-remove" id="eliminar"></i></a></li>
+                                </ul>
+                            </div>
+                            <br><br><br><br>
+                            <a href="visualizarCuenta.html"><input type="button" value="Visualizar Registro"></a>
+                        </div>
+                        <div class="input">
+                            <a href="creacion_cuenta.html"><input type="button" value="Crear Cuenta"></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
